@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		341EBE2D1B27DE3000A78A72 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 341EBE2C1B27DE3000A78A72 /* AppDelegate.swift */; };
+		341EBE2F1B27DE3000A78A72 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 341EBE2E1B27DE3000A78A72 /* ViewController.swift */; };
+		341EBE321B27DE3000A78A72 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 341EBE301B27DE3000A78A72 /* Main.storyboard */; };
+		341EBE341B27DE3000A78A72 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 341EBE331B27DE3000A78A72 /* Images.xcassets */; };
+		341EBE371B27DE3000A78A72 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 341EBE351B27DE3000A78A72 /* LaunchScreen.xib */; };
+		341EBE431B27DE3000A78A72 /* F2_HW_Class_Roster_TableViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 341EBE421B27DE3000A78A72 /* F2_HW_Class_Roster_TableViewTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		341EBE3D1B27DE3000A78A72 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 341EBE1F1B27DE3000A78A72 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 341EBE261B27DE3000A78A72;
+			remoteInfo = "F2 HW Class Roster TableView";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		341EBE271B27DE3000A78A72 /* F2 HW Class Roster TableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "F2 HW Class Roster TableView.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		341EBE2B1B27DE3000A78A72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		341EBE2C1B27DE3000A78A72 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		341EBE2E1B27DE3000A78A72 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		341EBE311B27DE3000A78A72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		341EBE331B27DE3000A78A72 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		341EBE361B27DE3000A78A72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		341EBE3C1B27DE3000A78A72 /* F2 HW Class Roster TableViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "F2 HW Class Roster TableViewTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		341EBE411B27DE3000A78A72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		341EBE421B27DE3000A78A72 /* F2_HW_Class_Roster_TableViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = F2_HW_Class_Roster_TableViewTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		341EBE241B27DE3000A78A72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		341EBE391B27DE3000A78A72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		341EBE1E1B27DE3000A78A72 = {
+			isa = PBXGroup;
+			children = (
+				341EBE291B27DE3000A78A72 /* F2 HW Class Roster TableView */,
+				341EBE3F1B27DE3000A78A72 /* F2 HW Class Roster TableViewTests */,
+				341EBE281B27DE3000A78A72 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		341EBE281B27DE3000A78A72 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				341EBE271B27DE3000A78A72 /* F2 HW Class Roster TableView.app */,
+				341EBE3C1B27DE3000A78A72 /* F2 HW Class Roster TableViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		341EBE291B27DE3000A78A72 /* F2 HW Class Roster TableView */ = {
+			isa = PBXGroup;
+			children = (
+				341EBE2C1B27DE3000A78A72 /* AppDelegate.swift */,
+				341EBE2E1B27DE3000A78A72 /* ViewController.swift */,
+				341EBE301B27DE3000A78A72 /* Main.storyboard */,
+				341EBE331B27DE3000A78A72 /* Images.xcassets */,
+				341EBE351B27DE3000A78A72 /* LaunchScreen.xib */,
+				341EBE2A1B27DE3000A78A72 /* Supporting Files */,
+			);
+			path = "F2 HW Class Roster TableView";
+			sourceTree = "<group>";
+		};
+		341EBE2A1B27DE3000A78A72 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				341EBE2B1B27DE3000A78A72 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		341EBE3F1B27DE3000A78A72 /* F2 HW Class Roster TableViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				341EBE421B27DE3000A78A72 /* F2_HW_Class_Roster_TableViewTests.swift */,
+				341EBE401B27DE3000A78A72 /* Supporting Files */,
+			);
+			path = "F2 HW Class Roster TableViewTests";
+			sourceTree = "<group>";
+		};
+		341EBE401B27DE3000A78A72 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				341EBE411B27DE3000A78A72 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		341EBE261B27DE3000A78A72 /* F2 HW Class Roster TableView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 341EBE461B27DE3000A78A72 /* Build configuration list for PBXNativeTarget "F2 HW Class Roster TableView" */;
+			buildPhases = (
+				341EBE231B27DE3000A78A72 /* Sources */,
+				341EBE241B27DE3000A78A72 /* Frameworks */,
+				341EBE251B27DE3000A78A72 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "F2 HW Class Roster TableView";
+			productName = "F2 HW Class Roster TableView";
+			productReference = 341EBE271B27DE3000A78A72 /* F2 HW Class Roster TableView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		341EBE3B1B27DE3000A78A72 /* F2 HW Class Roster TableViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 341EBE491B27DE3000A78A72 /* Build configuration list for PBXNativeTarget "F2 HW Class Roster TableViewTests" */;
+			buildPhases = (
+				341EBE381B27DE3000A78A72 /* Sources */,
+				341EBE391B27DE3000A78A72 /* Frameworks */,
+				341EBE3A1B27DE3000A78A72 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				341EBE3E1B27DE3000A78A72 /* PBXTargetDependency */,
+			);
+			name = "F2 HW Class Roster TableViewTests";
+			productName = "F2 HW Class Roster TableViewTests";
+			productReference = 341EBE3C1B27DE3000A78A72 /* F2 HW Class Roster TableViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		341EBE1F1B27DE3000A78A72 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Sau Chung Loh";
+				TargetAttributes = {
+					341EBE261B27DE3000A78A72 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					341EBE3B1B27DE3000A78A72 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 341EBE261B27DE3000A78A72;
+					};
+				};
+			};
+			buildConfigurationList = 341EBE221B27DE3000A78A72 /* Build configuration list for PBXProject "F2 HW Class Roster TableView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 341EBE1E1B27DE3000A78A72;
+			productRefGroup = 341EBE281B27DE3000A78A72 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				341EBE261B27DE3000A78A72 /* F2 HW Class Roster TableView */,
+				341EBE3B1B27DE3000A78A72 /* F2 HW Class Roster TableViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		341EBE251B27DE3000A78A72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				341EBE321B27DE3000A78A72 /* Main.storyboard in Resources */,
+				341EBE371B27DE3000A78A72 /* LaunchScreen.xib in Resources */,
+				341EBE341B27DE3000A78A72 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		341EBE3A1B27DE3000A78A72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		341EBE231B27DE3000A78A72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				341EBE2F1B27DE3000A78A72 /* ViewController.swift in Sources */,
+				341EBE2D1B27DE3000A78A72 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		341EBE381B27DE3000A78A72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				341EBE431B27DE3000A78A72 /* F2_HW_Class_Roster_TableViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		341EBE3E1B27DE3000A78A72 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 341EBE261B27DE3000A78A72 /* F2 HW Class Roster TableView */;
+			targetProxy = 341EBE3D1B27DE3000A78A72 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		341EBE301B27DE3000A78A72 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				341EBE311B27DE3000A78A72 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		341EBE351B27DE3000A78A72 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				341EBE361B27DE3000A78A72 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		341EBE441B27DE3000A78A72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		341EBE451B27DE3000A78A72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		341EBE471B27DE3000A78A72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "F2 HW Class Roster TableView/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		341EBE481B27DE3000A78A72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "F2 HW Class Roster TableView/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		341EBE4A1B27DE3000A78A72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "F2 HW Class Roster TableViewTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/F2 HW Class Roster TableView.app/F2 HW Class Roster TableView";
+			};
+			name = Debug;
+		};
+		341EBE4B1B27DE3000A78A72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "F2 HW Class Roster TableViewTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/F2 HW Class Roster TableView.app/F2 HW Class Roster TableView";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		341EBE221B27DE3000A78A72 /* Build configuration list for PBXProject "F2 HW Class Roster TableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				341EBE441B27DE3000A78A72 /* Debug */,
+				341EBE451B27DE3000A78A72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		341EBE461B27DE3000A78A72 /* Build configuration list for PBXNativeTarget "F2 HW Class Roster TableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				341EBE471B27DE3000A78A72 /* Debug */,
+				341EBE481B27DE3000A78A72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		341EBE491B27DE3000A78A72 /* Build configuration list for PBXNativeTarget "F2 HW Class Roster TableViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				341EBE4A1B27DE3000A78A72 /* Debug */,
+				341EBE4B1B27DE3000A78A72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 341EBE1F1B27DE3000A78A72 /* Project object */;
+}
