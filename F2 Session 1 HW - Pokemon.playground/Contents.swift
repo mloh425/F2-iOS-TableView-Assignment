@@ -135,17 +135,6 @@ class Charzard : Charmeleon{
   }
 }
 
-let myCharzard = Charzard(name: "Derp", type: .Fire, 20, health: 200)
-let myCharmel = Charmeleon(name: "Herp", type: .Fire, 15, health: 150)
-
-//
-func encounter (playerOne : Pokemon, playerTwo: Pokemon) {
-  while (playerOne.isAlive && playerTwo.isAlive) {
-    println("\(playerOne.name) choose your attack!")
-    
-  }
-}
-
 //Bulbasaur inherits from Pokemon and is a grass pokemon with razorLeaf.
 class Bulbasaur : Pokemon {
   var razorLeaf: Double = 10
@@ -156,9 +145,6 @@ class Bulbasaur : Pokemon {
   }
 }
 
-let myBulba = Bulbasaur(name: "Saur", type: .Grass)
-
-/*
 //Ivysaur inherits from Bulbasaur and is a grass pokemon with Vinewhip.
 class Ivysaur : Bulbasaur {
   var vineWhip: Double = 20
@@ -190,9 +176,9 @@ class Squirtle : Pokemon {
 }
 
 //Warturtle inherits from Squirtle and is a water pokemon with Waterblast.
-class WarTurtle : Squirtle {
+class Warturtle : Squirtle {
   var waterBlast: Double = 20
-  func useBubbleOn (enemy : Pokemon) {
+  func useWaterBlastOn (enemy : Pokemon) {
     var healthLeft = enemy.health
     var multiplier = getMultiplierWithEnemy(enemy)
     checkEnemyHealthWithMultiplier(multiplier, atkDmg: self.waterBlast, healthLeft: healthLeft, enemy: enemy)
@@ -200,7 +186,7 @@ class WarTurtle : Squirtle {
 }
 
 //Blastoise inherits from Warturtle and is a water pokemon with Hydrocannon.
-class Blastoise : WarTurtle {
+class Blastoise : Warturtle {
   var hydroCannon: Double = 30
   func useHydroCannonOn (enemy : Pokemon) {
     var healthLeft = enemy.health
@@ -234,4 +220,39 @@ class Gyarados : Magikarp {
     var multiplier = getMultiplierWithEnemy(enemy)
     checkEnemyHealthWithMultiplier(multiplier, atkDmg: self.hyperBeam, healthLeft: healthLeft, enemy: enemy)
   }
-} */
+}
+
+let myCharzard = Charzard(name: "Charz", type: .Fire, 40, health: 560)
+let myCharmel = Charmeleon(name: "Charmel", type: .Fire, 15, health: 150)
+let myCharmy = Charmander(name: "Charmy", type: .Fire)
+let myBulba = Bulbasaur(name: "Bulba", type: .Grass)
+let myIvy = Ivysaur(name: "Ivy", type: .Grass, 18, health: 180)
+let myVena = Venusaur(name: "Vena", type: .Grass, 50, health: 340)
+let mySquirtle = Squirtle(name: "Squirt", type: .Water)
+let myWarturtle = Warturtle(name: "Warturtle", type: .Water, 22, health: 230)
+let myBlastoise = Blastoise(name: "Blastoise", type: .Water, 63, health: 670)
+let myMagikarp = Magikarp(name: "Useless", type: .Water)
+let myGyarados = Gyarados(name: "Gyarados", type: .Water, 78, health: 860)
+
+//Here is a demo of fighting between Pokemon, commands of each attack needs to be entered manually
+myBulba.health
+myCharzard.useFlamethrowerOn(myBulba) //Charzard deals 1.5 times more damage grass types!
+myBulba.useRazorLeafOn(myCharzard) //Razorleaf was not really effective on Charzard
+myBulba.health
+myCharzard.useFireblastOn(myBulba)
+myBulba.useRazorLeafOn(myCharzard)
+myBulba.health
+myCharzard.useFlamethrowerOn(myBulba)
+myBulba.useRazorLeafOn(myCharzard)
+myBulba.health //Bulbasaur lost to the mighty Charzard.
+myBulba.isAlive //Bulbasaur is injured and needs to go to a Pokemon Center!
+myBulba.goToPokemonCenter() //Bulbasaur is all better
+myBulba.health
+
+//Gyarados I choose you!
+myGyarados.useHydroCannonOn(myCharzard)
+myCharzard.useFlamethrowerOn(myGyarados)
+myGyarados.health
+myCharzard.health
+
+

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>0E1A9B3E-7CA5-4155-8271-BCF842288392</string>
+	<key>IDESourceControlProjectName</key>
+	<string>F2 Session 1 HW - Pokemon</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>0202B21F006C6C4C598DB046EF9472B1F94DA743</key>
+		<string>https://github.com/mloh425/F2-iOS-TableView-Assignment.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>F2 Session 1 HW - Pokemon.playground</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>0202B21F006C6C4C598DB046EF9472B1F94DA743</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/mloh425/F2-iOS-TableView-Assignment.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>0202B21F006C6C4C598DB046EF9472B1F94DA743</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>0202B21F006C6C4C598DB046EF9472B1F94DA743</string>
+			<key>IDESourceControlWCCName</key>
+			<string>F2%20HW%20Class%20Roster%20TableView</string>
+		</dict>
+	</array>
+</dict>
+</plist>
