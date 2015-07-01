@@ -15,6 +15,8 @@
 		341EBE431B27DE3000A78A72 /* F2_HW_Class_Roster_TableViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 341EBE421B27DE3000A78A72 /* F2_HW_Class_Roster_TableViewTests.swift */; };
 		341EBE561B2A7CE600A78A72 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 341EBE551B2A7CE600A78A72 /* Person.swift */; };
 		341EBE5B1B2AB2BF00A78A72 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 341EBE5A1B2AB2BF00A78A72 /* DetailViewController.swift */; };
+		341EBEB91B43605600A78A72 /* PersonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 341EBEB81B43605600A78A72 /* PersonCell.swift */; };
+		341EBEBB1B43695200A78A72 /* People.plist in Resources */ = {isa = PBXBuildFile; fileRef = 341EBEBA1B43695200A78A72 /* People.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,8 @@
 		341EBE421B27DE3000A78A72 /* F2_HW_Class_Roster_TableViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = F2_HW_Class_Roster_TableViewTests.swift; sourceTree = "<group>"; };
 		341EBE551B2A7CE600A78A72 /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		341EBE5A1B2AB2BF00A78A72 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		341EBEB81B43605600A78A72 /* PersonCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonCell.swift; sourceTree = "<group>"; };
+		341EBEBA1B43695200A78A72 /* People.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = People.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				341EBE2B1B27DE3000A78A72 /* Info.plist */,
+				341EBEBA1B43695200A78A72 /* People.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -130,6 +135,7 @@
 			isa = PBXGroup;
 			children = (
 				341EBE301B27DE3000A78A72 /* Main.storyboard */,
+				341EBEB81B43605600A78A72 /* PersonCell.swift */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -225,6 +231,7 @@
 				341EBE321B27DE3000A78A72 /* Main.storyboard in Resources */,
 				341EBE371B27DE3000A78A72 /* LaunchScreen.xib in Resources */,
 				341EBE341B27DE3000A78A72 /* Images.xcassets in Resources */,
+				341EBEBB1B43695200A78A72 /* People.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -243,6 +250,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				341EBE561B2A7CE600A78A72 /* Person.swift in Sources */,
+				341EBEB91B43605600A78A72 /* PersonCell.swift in Sources */,
 				341EBE2F1B27DE3000A78A72 /* ViewController.swift in Sources */,
 				341EBE2D1B27DE3000A78A72 /* AppDelegate.swift in Sources */,
 				341EBE5B1B2AB2BF00A78A72 /* DetailViewController.swift in Sources */,
